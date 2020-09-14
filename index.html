@@ -1,0 +1,723 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>James Tsetsekas</title>
+    <!-- Required meta tags -->
+    <meta   charset="utf-8" />
+    <meta   name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <!-- CSS -->
+    <link   rel="stylesheet" href="./css/style.css" />
+    <link   rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"/>
+    <link   href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700&display=swap"
+            rel="stylesheet"/>
+    <link   href="dist/lity.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
+
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav navigation">
+            <a class="navbar-brand" href="#top">
+                <img class="navbar-logo" src="./images/jtlogo-1.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+                <span>James Tsetsekas</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item home_link ">
+                        <a class="nav-link" href="#top">
+                            <i class="fas fa-home"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item about_me_link">
+                        <a class="nav-link" href="#about">
+                            <i class="fas fa-address-card"></i>
+                            About Me</a>
+                    </li>
+                    <li class="nav-item my_work_link">
+                        <a class="nav-link" href="#projects">
+                            <i class="fas fa-file-code"></i>
+                            My Work</a>
+                    </li>
+                    <li class="nav-item my_resume_link">
+                        <a class="nav-link" href="./pdf/resume.pdf">
+                            <i class="fas fa-file-alt"></i>
+                            My Resume</a>
+                    </li>
+                    <li class="nav-item say_hi_link">
+                        <a class="nav-link" href="#contact">
+                            <i class="fas fa-comments"></i>
+                            Say Hi!</a>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+</nav>
+
+<header id="header">
+    <div class="overlay"></div>
+    <video id="codevideo" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="videos/code.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 h-primary-content">
+                <h1>
+                    My name is James Tsetsekas,
+                    <br />
+                    I'm a <span class="stylized">web developer</span> and I create
+                    <br />
+                    <div id="typed-strings">
+                        <p>static websites</p>
+                        <p>WordPress websites</p>
+                        <p>business websites</p>
+                        <p>web projects</p>
+                    </div>
+                    <span id="typed"></span>
+                </h1>
+            </div>
+
+            <div class="container-fluid contact-me">
+                <div class="row">
+                    <div class="col cm-col">
+                        <a href="mailto:Jtsetsekas@gmail.com.com?subject=JamesTsetsekas.com Contact">
+                            <span class="btn-contact">Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="overlay"></div>
+</header>
+
+<section id="projects">
+    <div class="container-fluid">
+        <h2>Recent Web Projects</h2>
+
+        <div class="row proj-1">
+
+            <div class="col-md-6 col-lg-4">
+                <a href="#amproperty" data-lity>
+                    <div id="p-amproperty" class="media-box">
+                        <h3 class="text-center">A&amp;M Property</h3>
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="#catch" data-lity>
+                    <div id="p-catch" class="media-box">
+                        <h3>Catch of The Day</h3>
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+            <a href="#real-estate" data-lity>
+                <div id="p-realty" class="media-box">
+                    <h3>Real Estate</h3>
+                    <div class="overlay"></div>
+                </div>
+            </a>
+        </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="#pizza" data-lity>
+                    <div id="p-pizza" class="media-box">
+                        <h3>Jersey Pizza</h3>
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="#port-temp" data-lity>
+                    <div id="p-port-temp" class="media-box">
+                        <h3>Portfolio template</h3>
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="lightboxes">
+<!-- LIGHTBOXES -->
+
+<div id="amproperty" class="lity-hide lightboxes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://jamescodes.ddns.net/pulsetester/"
+                >
+                    <img src="./images/ampi.jpg" alt="" />
+                </a>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h3>Alvarez & Marsal Property Investments</h3>
+                <ul>
+                    <li>Web Page Template for real estate holding company.</li>
+                    <li>Template is designed in WordPress CMS.</li>
+                    <li>micro-sites for each property designed in WordPress.</li>
+                </ul>
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://jamescodes.ddns.net/pulsetester/"
+                >
+              <span class="visit">
+                Visit Site
+              </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pizza" class="lity-hide lightboxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/Pizza-Website/"
+                    >
+                        <img src="./images/real-estate-site.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h3>Pizza Order Website</h3>
+                    <ul>
+                        <li>This website was built out of HTML, CSS, and Vanilla JS. The project provides an expanding menu and price display using JS.</li>
+                        <li>
+                            <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://github.com/JamesCodes0/Pizza-Website"
+                            >Source code available here.</a
+                            >
+                        </li>
+                    </ul>
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/Pizza-Website/"
+                    >
+              <span class="visit">
+                  View Web Mockup
+                </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="real-estate" class="lity-hide lightboxes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://jamestsetsekas.com/Real-Estate-Template/"
+                >
+                    <img src="./images/real-estate-site.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <h3>Real Estate Home Page Mockup</h3>
+                <ul>
+                    <li>Constructed using HTML, Bootstrap, and SASS.</li>
+                    <li>
+                        Responsive, mobile-friendly design and resizable carousels.
+                    </li>
+                    <li>Request was for home page redesign.</li>
+                    <li>
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/JamesCodes0/Real-Estate-Template"
+                        >Source code available here.</a
+                        >
+                    </li>
+                </ul>
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://jamestsetsekas.com/Real-Estate-Template/"
+                >
+              <span class="visit">
+                  View Web Mockup
+                </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="catch" class="lity-hide lightboxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/cotd/"
+                    >
+                        <img src="./images/catch-of-the-day.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <h3>Catch Of The Day</h3>
+                    <ul>
+                        <li>
+                            A real-time web app built with React implementing State and
+                            Props.
+                        </li>
+                        <li>
+                            Includes authentication, web sockets, URL routing, and global
+                            variables.
+                        </li>
+                        <li>
+                            <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://github.com/JamesCodes0/Catch-Of-The-Day"
+                            >Source code available here.</a
+                            >
+                        </li>
+                    </ul>
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/cotd/"
+                    >
+              <span class="visit">
+                Visit Site
+              </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="port-temp" class="lity-hide lightboxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/Portfolio-Template/"
+                    >
+                        <img src="./images/port-temp.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <h3>Portfolio/Resume website template</h3>
+                    <ul>
+                        <li>
+                            <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://github.com/JamesCodes0/Portfolio-Template"
+                            >Source code available here.</a
+                            >
+                        </li>
+                    </ul>
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://jamestsetsekas.com/Portfolio-Template/"
+                    >
+              <span class="visit">
+                Visit Site
+              </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- END OF LIGHTBOXES -->
+</section>
+
+<section id="other-projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Other Projects (Python, JS, and C#)</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 op-1">
+                <img src="images/hexagon-icon.png" alt="" />
+            </div>
+
+            <div class="col-md-6">
+                <h3>Jetbrains Academy Web Developer Track</h3>
+                <ul>
+                    <li>Web development course.</li>
+                    <li>Built with HTML, CSS, and JavaScript</li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="#">Source code available here.</a></li>
+                </ul>
+
+                <h3>30 Day JavaScript Challenge</h3>
+                <ul>
+                    <li>30 challenges to build a wide variety of JS functions</li>
+                    <li>Built in JS ES6</li>
+                    <li><a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/JamesCodes0/JavaScript-30-Day-Challenge">Source code available here.</a></li>
+                </ul>
+
+                <h3>Codecademy.com Web Development Path</h3>
+                <ul>
+                    <li>Web app to manage employee hours and vacation time.</li>
+                    <li>Full-stack web development course.</li>
+                    <li>Built with  HTML, CSS, JavaScript, and React.</li>
+                    <li><a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="#">Source code available here.</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="interested">
+    <div class="container">
+        <h2>Interested in working on a project?</h2>
+    </div>
+    <div class="container-fluid contact-me">
+        <div class="row">
+            <div class="col cm-col">
+                <a href="mailto:Jtsetsekas@gmail.com.com?subject=JamesTsetsekas.com Contact">
+                    <span class="btn-contact">Contact Me</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>About James</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Bio</h3>
+                <p class="bigger-text">
+                    While I specialize in HTML, CSS, SCSS, JS, and WordPress, I am constantly studying and practicing to grow my skills.
+                </p>
+                <p>I have completed many free and paid online courses in subjects such as CSS, Python, Vanilla JS, ReactJS, and  Computer Security. Most nights, I will delve into a book or course so I can expand my skill set.</p>
+                <p>
+                    <strong>I have Object Oriented Programming experience</strong> using Python.
+                </p>
+                <p>
+                    <strong>I have design experience</strong> wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop and Illustrator , Autocad, Sketchup: 3D Modeling and various other tools.
+                </p>
+                <p>
+                    <strong>I have business, technical and management experience,</strong> which began with two years of supporting users at a remote IT helpdesk at a Big 4 accounting firm. Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchiser of residential real estate brokerages. Later , I was the Property Manager and IT Director at a construction & real estate development company. I managed and streamlined their IT systems,  oversaw  commercial and residential leasing. Additionally, I work Freelance Web Development projects.
+                </p>
+            </div>
+
+            <div class="col-md-6 shields-ctn">
+                <h3>Technical Skills</h3>
+                <div class="row for-icons">
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-html.png"
+                                alt="html-language"
+                                title="html-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-css.png"
+                                alt="css-language"
+                                title="css-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-js.png"
+                                alt="js-language"
+                                title="js-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-wp.png"
+                                alt="wordpress"
+                                title="wordpress"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-php.png"
+                                alt="php-language"
+                                title="php-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-react.png"
+                                alt="sql-language"
+                                title="sql-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-wireframe.png"
+                                alt="c-sharp-language"
+                                title="c-sharp-language"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-6 col-sm-3 text-center shields">
+                        <img
+                                src="./images/blue-shield-agile.png"
+                                alt="agile-methodology"
+                                title="agile-methodology"
+                                loop="infinite"
+                        />
+                    </div>
+                    <div class="col-12 pt-5">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-secondary text-center"><span class="font-weight-bold">Certificates of Completion </span></li>
+                            <li class="list-group-item list-group-item-secondary"><a href="https://www.freecodecamp.org/certification/jamestsetsekas/responsive-web-design">Responsive Web Design</a></li>
+                            <li class="list-group-item list-group-item-secondary"><a href="https://www.freecodecamp.org/certification/jamestsetsekas/javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</a></li>
+                            <li class="list-group-item list-group-item-secondary"><a href="https://www.freecodecamp.org/certification/jamestsetsekas/front-end-libraries">Front End Libraries</a></li>
+                            <li class="list-group-item list-group-item-secondary"><a href="https://www.udemy.com/course/python-programming-projects/">Python for Beginners: Learn Python Programming (Python 3)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+<section id="achievements">
+    <div class="container">
+        <h2>Achievements</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.upfolio.com/blockchain-influencers"
+                        >
+                            <div class="media-box">
+                                <img
+                                        src="images/icon-influence.png"
+                                        alt="Upfolio Blockchain Influencer"
+                                        title="Upfolio Blockchain Influencer"
+                                />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-9">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.upfolio.com/blockchain-influencers"
+                        ><strong>Top 100 Blockchain Influencer</strong></a
+                        >
+                        <p>
+                            Upfolio recognized me in 2018 for co-hosting the Crypto101
+                            Podcast and for Decryptionary.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://medium.com/@daniamsalem"
+                        >
+                            <div class="media-box">
+                                <img
+                                        src="./images/icon-pencil.png"
+                                        alt="Medium.com, Dani's Stats"
+                                        title="Medium.com, Dani's Stats"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://medium.com/@daniamsalem"
+                        ><strong>Successful Medium.com Author</strong></a
+                        >
+                        <p>
+                            Articles are top-ranking items in Google's search results with
+                            hundreds of daily views.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.amazon.com/CRYPTO-101-Johnnys-Guide-Cryptocurrency-ebook/dp/B07JR1J81V/"
+                        >
+                            <div class="media-box">
+                                <img
+                                        src="./images/icon-book.png"
+                                        alt="Book Johnny's Guide to Crypto"
+                                        title="Book, Johnny's Guide to Crypto"
+                                />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-9">
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.amazon.com/CRYPTO-101-Johnnys-Guide-Cryptocurrency-ebook/dp/B07JR1J81V/"
+                        ><strong
+                        >Co-authored Johnny's Guide to Cryptocurrency</strong
+                        ></a
+                        >
+                        <p>
+                            Contributed to the story and defined/illustrated all of the
+                            terms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="container closing-contact">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 cm-col">
+                <a href="mailto:Jtsetsekas@gmail.com.com?subject=JamesTsetsekas.com Contact">
+                    Email Me <i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 cm-col">
+                <a href="./pdf/resume.pdf"
+                >View Resume <i class="fas fa-file-alt"></i
+                ></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 cm-col">
+                <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/JamesCodes0"
+                >GitHub <i class="fab fa-github-square"></i
+                ></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 cm-col">
+                <a      target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/jamestsetsekas/">
+                    LinkedIn <i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div class="footer">
+    <small>&copy; <span id="year"></span> James Tsetsekas</small>
+</div>
+
+<!-- SCRIPTS -->
+<section id="scripts">
+<script src="js/typed.min.js"></script>
+<script src="js/main.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+></script>
+<script src="https://kit.fontawesome.com/b6575aac5b.js"></script>
+<script src="dist/lity.js"></script>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+<script>
+    const vid = document.getElementById("codevideo");
+    vid.playbackRate = 5; // 1.375;
+</script>
+</section>
+
+</body>
+</html>
